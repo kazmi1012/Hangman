@@ -69,3 +69,4 @@ def render_stage(misses):
     for line in current_stage:
         print(line)
 
+ 

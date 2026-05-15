@@ -30,16 +30,11 @@ class Hangman():
     
 
 
-    # def check(self, guess):
-    #     if not guess.isalpha() or len(guess) != 1:
-    #         print( "Invalid input! You can only enter alphabets (A-Z).")
-    #         return False 
-    #     return True
 
 
     def process_guess(self, guess):
 
-        # self.check()
+    
 
         if guess in self.entered_letters:
             print("You've already guessed that letter!")
